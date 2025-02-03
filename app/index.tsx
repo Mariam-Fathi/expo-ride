@@ -1,18 +1,9 @@
-import { Text, View } from "react-native";
+import { Redirect } from "expo-router";
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "black",
-      }}
-    >
-      <Text className="text-white">
-        Edit app/index.tsx to edit this screen.
-      </Text>
-    </View>
-  );
-}
+const Page = () => {
+  // return <Redirect href="/(root)/(tabs)/home" />;
+
+  return <Redirect href="/(auth)/welcome" />;
+};
+
+export default Page;
