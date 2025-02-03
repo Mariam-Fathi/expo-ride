@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# 🚗 Full-Stack Ride Sharing Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🔧 **Tech Stack:** React Native, Expo, Stripe, PostgreSQL, Geoapify, Zustand, Clerk, NativeWind
 
-## Get started
+A ride-sharing app developed with React Native. It integrates Geoapify for map services and supports Stripe for secure payments. Built to demonstrate a full-stack mobile app with smooth onboarding, ride selection, payment systems, and user history.
 
-1. Install dependencies
+## ✨ Key Features
 
-   ```bash
-   npm install
-   ```
+- 🧑‍💻 **Onboarding Flow:** Smooth user registration and account setup.
+- 🔒 **Email & Google Authentication:** Secure login with email/password and Google OAuth.
+- 📍 **Home Screen with Live Location:** Real-time tracking of location with Geoapify map integration and markers.
+- 🗺️ **Geoapify Places Search:** Search locations using Geoapify's autocomplete API for seamless place discovery.
+- 🚗 **Find and Select Rides:** Search and choose rides based on location, with cars displayed on the map.
+- 💳 **Stripe Payment Integration:** Easy and secure payment handling using Stripe for multiple payment methods.
+- 🕒 **Recent Rides & Ride History:** View details of past rides, including time and fare price.
+- 💼 **Profile Management:** Manage personal account settings and preferences.
 
-2. Start the app
+## 🚀 Challenges
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Geoapify API Integration:** Switched from Google Maps to Geoapify for location services, eliminating the need for a credit card to access API keys, which improved ease of use and flexibility.
