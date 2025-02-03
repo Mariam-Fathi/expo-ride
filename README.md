@@ -1,4 +1,3 @@
-```md
 # 🚗 Full-Stack Ride Sharing Application
 
 🔧 **Tech Stack:** React Native, Expo, Stripe, PostgreSQL, Geoapify, Zustand, Clerk, Tailwind CSS  
