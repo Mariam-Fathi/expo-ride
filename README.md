@@ -5,6 +5,7 @@
 A ride-sharing app developed with React Native. It integrates Geoapify for map services and supports Stripe for secure payments. Built to demonstrate a full-stack mobile app with smooth onboarding, ride selection, payment systems, and user history.
 
 ## ✨ Key Features
+
 - 🧑‍💻 **Onboarding Flow:** Smooth user registration and account setup.
 - 🔒 **Email & Google Authentication:** Secure login with email/password and Google OAuth.
 - 📍 **Home Screen with Live Location:** Real-time tracking of location with Geoapify map integration and markers.
@@ -15,4 +16,5 @@ A ride-sharing app developed with React Native. It integrates Geoapify for map s
 - 💼 **Profile Management:** Manage personal account settings and preferences.
 
 ## 🚀 Challenges
+
 - **Geoapify API Integration:** Switched from Google Maps to Geoapify for location services, eliminating the need for a credit card to access API keys, which improved ease of use and flexibility.

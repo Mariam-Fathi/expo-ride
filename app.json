@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo-ride-share-app",
+    "name": "Move Mate",
     "slug": "expo-ride-share-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,12 +11,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
+    "android": {},
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -27,10 +22,8 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "image": "./assets/images/splash.png",
+          "backgroundColor": "#2F80ED"
         }
       ]
     ],
