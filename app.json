@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Move Mate",
-    "slug": "expo-ride-share-app",
+    "slug": "move-mate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,16 +14,28 @@
     "android": {},
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-router",
+        {
+          "origin": "https://myapp.expo.app"
+        }
+      ],
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash.png",
           "backgroundColor": "#2F80ED"
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.fullstackstripeapp",
+          "publishableKey": "pk_test_51QgYSRDc5aXtM2Cdso8MF2NCniMTwYhpgDvlgi2RmNVneOEdCDXBkK5qP8RaV2XmhHTm3OemO0LiaBJym1UlhwoT00bKlAUw67"
         }
       ]
     ],
