@@ -1,4 +1,3 @@
-import { data } from "@/constants";
 import { neon } from "@neondatabase/serverless";
 
 export async function GET(request: Request, { email }: { email: string }) {
