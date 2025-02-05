@@ -1,4 +1,4 @@
-# Full-Stack React Native Ride Sharing Application
+# Ride Sharing Application
 
 **Tech Stack:** React Native, Expo, Stripe, PostgreSQL, Geoapify, Zustand, Clerk, NativeWind
 
