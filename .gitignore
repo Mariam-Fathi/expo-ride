@@ -20,6 +20,8 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
+.env 
+
 # debug
 npm-debug.*
 yarn-debug.*
@@ -28,9 +30,6 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
-
-# local env files
-.env
 
 # typescript
 *.tsbuildinfo

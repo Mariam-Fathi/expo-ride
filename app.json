@@ -11,7 +11,14 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {},
+    "android": {
+      "package": "com.mariamfathi.movemate",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAox9KD12wMTgW0AF8d4S75q6oZoa2lzAw"
+        }
+      }
+    },
     "web": {
       "bundler": "metro",
       "output": "server",
@@ -28,6 +35,7 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash.png",
+          "resizeMode": "cover",
           "backgroundColor": "#2F80ED"
         }
       ],
@@ -41,6 +49,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://myapp.expo.app"
+      },
+      "eas": {
+        "projectId": "395917ed-33b4-480e-9457-cc846d1e3b1f"
+      }
     }
   }
 }
