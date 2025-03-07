@@ -1,5 +1,5 @@
 import { useUser } from "@clerk/clerk-expo";
-import { StripeProvider } from "@stripe/stripe-react-native";
+import StripeProvider from "../../components/StripeProvider";
 import { Image, Text, View } from "react-native";
 
 import Payment from "@/components/Payment";
@@ -28,11 +28,7 @@ const BookRide = () => {
   )[0];
 
   return (
-    <StripeProvider
-      publishableKey={process.env.EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY!}
-      merchantIdentifier={merchantId}
-      urlScheme={Linking.createURL("/").split(":")[0]}
-    >
+    <StripeProvider>
       <RideLayout title="Book Ride">
         <Text className="text-xl font-JakartaSemiBold mb-3">
           Ride Information
