@@ -24,7 +24,7 @@ const DriverCard = ({ item, selected, setSelected }: DriverCardProps) => {
 
           <View className="flex flex-row items-center space-x-1 ml-2">
             <Image source={icons.star} className="w-3.5 h-3.5" />
-            <Text className="text-sm font-JakartaRegular">4</Text>
+            <Text className="text-sm font-JakartaRegular">{item.rating}</Text>
           </View>
         </View>
 
@@ -32,7 +32,7 @@ const DriverCard = ({ item, selected, setSelected }: DriverCardProps) => {
           <View className="flex flex-row items-center">
             <Image source={icons.dollar} className="w-4 h-4" />
             <Text className="text-sm font-JakartaRegular ml-1">
-              ${item.price}
+              EGP {item.price}
             </Text>
           </View>
 

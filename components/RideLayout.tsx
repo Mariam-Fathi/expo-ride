@@ -48,7 +48,7 @@ const RideLayout = ({
           keyboardBehavior="extend"
           ref={bottomSheetRef}
           enableDynamicSizing={true}
-          snapPoints={["40%"]}
+          // snapPoints={["40%"]}
           index={0}
         >
           {title === "Choose a Rider" ? (

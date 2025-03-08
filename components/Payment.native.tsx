@@ -60,7 +60,7 @@ const Payment = ({ fullName, email, amount }: PaymentProps) => {
     <>
       <TouchableOpacity
         onPress={openPaymentSheet}
-        className="flex-1 flex flex-row items-center justify-center bg-primary-300 py-3 rounded-full shadow-md shadow-zinc-400"
+        className="w-full rounded-full py-4 flex flex-row justify-center items-center shadow-md shadow-neutral-400/70 bg-[#0286FF]"
       >
         <Text className="text-white text-lg text-center font-rubik-bold">
           Book Now
